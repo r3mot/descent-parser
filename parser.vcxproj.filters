@@ -5,33 +5,36 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{3d7eafc9-8869-4c8e-bf4d-e8b059b6b2ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="tokenizer.c">
+      <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="parser.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="tokenizer.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="main.c">
+      <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="cli.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="parser.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="tokenizer.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Source Files\src</Filter>
     </ClInclude>
     <ClInclude Include="global.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\src</Filter>
     </ClInclude>
     <ClInclude Include="cli.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
